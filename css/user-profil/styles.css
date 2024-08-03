@@ -1,0 +1,15 @@
+.header-class {
+    text-align: center;
+}
+
+.section-color {
+    background-color : green;
+    color : white;
+}
+
+.first {
+    color : cyan;
+}
+.last {
+    text-decoration: line-through;
+}
