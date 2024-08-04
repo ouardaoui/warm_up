@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+input {
+    margin : .25rem;
+}
+
+.inp {
+    border : 1px solid #AAA; 
+    outline: none ;
+    font-size: inherit;
+    padding: .5em;
+    border-radius: .2em;
+}
+
+.inp:focus {
+    border-color: #0AF;
+    box-shadow: 0 0 5px 0 #0AF;
+}
+
+.inp.succ {
+    border-color: #27AE60;
+}
+
+.inp.succ:focus {
+    border-color: #0F0;
+    box-shadow: 0 0 5px 0 #0F0;
+}
+
+.inp.error {
+    border-color: #EB5757;
+}
+
+.inp.error:focus {
+    border-color: #F00;
+    box-shadow: 0 0 5px 0 #F00;
+}
+
+.inp.large {
+    font-size: 1.25rem;
+}
+
+.inp.small {
+    font-size: .75rem;
+}
+
+.inp:disabled {
+    background-color: #EAEAEA;
+}

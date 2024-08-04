@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+}
+
+.btn {
+    outline: none;
+    cursor: pointer;
+    padding: .5em 1em;
+    background-color: hsl(0,0%, 90%);
+    border :1px solid hsl(0,0%, 70%);
+    border-radius: .3em;
+}
+
+.btn:hover, .btn:focus {
+    background-color: hsl(0,0%, 80%);
+    box-shadow: 0 0 5px 0 hsl(0,0%, 70%);
+}
+
+.btn.primary {
+    background-color: hsl(270, 70%, 50%);
+    border-color: hsl(270, 70%, 30%);
+    color : white;
+}
+
+.btn.primary:hover, .btn.primary:focus {
+    background-color: hsl(270, 70%, 40%);
+    box-shadow: 0 0 5px 0 hsl(270,70%, 30%  );
+}
+
+.btn.accent {
+    background-color: hsl(200, 100%, 40%);
+    border-color: hsl(200, 100%, 20%);
+    color : white;
+}
+
+.btn.accent:hover, .btn.accent:focus {
+    background-color: hsl(200, 100%, 30%);
+    box-shadow: 0 0 5px 0 hsl(200,100%, 20%);
+}
+
+.btn.danger {
+    background-color: hsl(0, 60%, 50%);
+    border-color: hsl(0, 60%, 30%);
+    color : white;
+}
+
+.btn.danger:hover, .btn.danger:focus {
+    background-color: hsl(0, 60%, 40%);
+    box-shadow: 0 0 5px 0 hsl(0,60%, 30%);
+}
+
+.large {   
+    font-size: 1.25rem; 
+}
+
+.small {
+    font-size: .75rem;
+}
+
+.pill {
+    border-radius: 1000000px;
+}
+
+.btn.custom {
+    background: linear-gradient(to right, hsl(270 , 70% , 50%) , hsl(200 ,100%, 40%));
+    color: white;
+    border-color: #222;
+}
+
+.btn.custom:hover, .btn.btn.custom:focus  {
+    background: linear-gradient(to right, hsl(270 , 70% , 40%) , hsl(200 ,100%, 30%));
+    border-color: black ;
+    box-shadow : 0 0 5px 0 black;
+}
