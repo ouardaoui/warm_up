@@ -26,4 +26,6 @@ const som = a.reduce((acc, e) => {
   return acc + e
 }, 0)
 
-console.log(som)
+const isT = a.includes(10);
+
+console.log(isT)
