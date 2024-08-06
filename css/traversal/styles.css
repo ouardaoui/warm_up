@@ -1,0 +1,14 @@
+*{
+    box-sizing: border-box;
+}
+
+div {
+    color : black; 
+
+}
+
+div > div {
+    margin-left: .5rem;
+    padding-left: .25rem;
+    border-left : 1px solid #777;
+}

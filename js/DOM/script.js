@@ -38,6 +38,15 @@ const form = document.querySelector("[form]")
 form.addEventListener("submit" , e => {
     e.preventDefault();
     console.log("was submited !!")
+    // this point to window 
 })
+
+const form_ = document.querySelector("[form]")
+form.addEventListener("submit" , function(e) {
+    e.preventDefault();
+    console.log("was submited !!")
+    // this point to form
+})
+
 
 console.log(form)
