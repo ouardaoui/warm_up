@@ -6,3 +6,70 @@ img {
     height: 150px;
     width: 150px;
 }
+
+body {
+    margin : 0px;
+    line-height: 1.5;
+    font-family: Arial;
+}
+
+.header {
+    background-color: #069;
+    color : white;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+.section {
+    padding: 1rem 2rem;
+    margin : 0px;
+}
+
+.skills {
+    background-color: #069;
+    color : white ;
+}
+
+.projects {
+    list-style: none;
+    color: #777;
+}
+
+.list-skills {
+    list-style: none;
+    font-style: italic;
+    font-size: 1.2rem;
+}
+
+.input {
+    border : 1px solid #AAA;
+    outline: none;
+    padding : .5rem;
+    border-radius: .2rem;
+    font-family: inherit;
+    line-height: inherit;
+}
+
+.input:focus {
+    border : 1px solid #069;
+    box-shadow:  0 0 5px 0 #069;
+}
+
+.no-resize {
+    resize: none;
+}
+
+.btn {
+    outline: none;
+    background-color : hsl(200, 100%, 30%);
+    border : 1px solid hsl(200, 100%, 10%);
+    color: white;
+    border-radius: .3rem;
+    padding: .5rem 1rem;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color : hsl(200, 100%, 20%);
+    box-shadow: 0 0 5px 0 hsl(200, 100%, 10%);
+}
