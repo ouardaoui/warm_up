@@ -1,0 +1,6 @@
+Local Storage | Cookies           | Session Storage
+10MB          | 4KB               | 5KB 
+Never Expires | Manual Expiration | Expire on tab close
+Client        | Client/Server     | Client 
+Easy          | Hard              | Easy
+
