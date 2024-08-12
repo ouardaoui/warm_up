@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.option {
+    display: flex;
+    margin: 0;
+}
+
+.ele {
+    padding: .5rem 1rem;
+    cursor: pointer;
+}
+
+.Navbar {
+    background-color: #333;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin: 0;
+}
+
+.ele:hover {
+    background-color: #777;
+}

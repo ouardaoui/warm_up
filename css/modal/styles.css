@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #555;
+}
+
+.modal {
+    display: flex;
+    width: 900px;
+    max-width : 80%;
+    height: 80vh;
+    flex-direction: column;
+    background-color: white;
+}
+
+.title {
+    font-size: 1.5rem;
+    padding-top: 1rem;
+}
+
+.close {
+    background-color: white;
+    border: none;
+    font-weight: bold;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    align-self: flex-start;
+
+}
+
+.header {
+    display: flex;
+    padding: 0 1rem;
+    padding-bottom: .5rem;
+    border-bottom: 1px solid #777;
+    justify-content: space-between;
+}
+
+.containte {
+    flex-grow: 1;
+    overflow: auto;
+    padding: 1rem;
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+    padding: .5rem;
+    border-top: 1px solid #777;
+}
+
+.footer .btn:last-child {
+    margin-right: initial;
+  }
+  
+  .btn {
+    padding: .5em 1em;
+    font-size: inherit;
+    border-radius: .3em;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin: .2rem;
+  }
+  
+  .btn.btn-primary {
+    background-color: #1CA;
+  }
+  
+  .btn.btn-primary:hover,
+  .btn.btn-primary:focus {
+    background-color: #0A8;
+  }
+  
+  .btn.btn-danger {
+    background-color: #C33;
+  }
+  
+  .btn.btn-danger:hover,
+  .btn.btn-danger:focus {
+    background-color: #A11;
+  }

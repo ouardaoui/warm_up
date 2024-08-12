@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #aaa;
+    border: 1px solid black;
+    height: 100vh;
+}
+
+.item {
+    color: yellow;
+    border: 1px solid black;
+    width: 75px;
+    height: 100px;
+    background-color : #777;
+    margin : 10px;
+}
