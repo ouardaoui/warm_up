@@ -27,10 +27,35 @@ color : rgb(r,g,b); (0 -255 for each color) we can repreente on hexa
 
 rgba (a for transparent )
 
-unity 
+hsl (0-360 , 0 -100  , 0 -100)
 
-pixel  : px  , percent : % base on the size of the parent ,
-view-with :  vw didnt care about margin , view-height ;  vh 
-em and rem based of font-size  rem based of root font size 
-em based of parent font size
+hsl( 0,100%. 50 %) = rgb(255,0,0) 
+hsla for transparent parameter
+
+specificity 
+(if(!important), id , class , element)
+
+pseudo class 
+selector:pseudo-class { // hover fovus 
+  property: value;
+}
+
+span:first-child { // u can use last-child
+  color : red ; that mean first child in this container are red
+}
+
+span:first-of-type { // or last of type 
+
+}
+
+span:nth-child(num) { num could be 1 2 3 ... we can use (even == 2n) or (odd == 2n +1 ) 
+
+}
+
+box-sizing : border-box (width and hight = pandding + border  + content)
+
+padding : top right bottom left 
+
+padding : vertical horizantal 
+
 

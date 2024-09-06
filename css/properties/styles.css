@@ -1,0 +1,41 @@
+:root {
+    --proprity-color : red;
+    --margin : 10;
+}
+
+h2 {
+    background-color: var(--proprity-color);
+    padding: .5rem;
+    color : white;
+}
+
+p {
+    color: var(--proprity-color);
+}
+
+.clac {
+    margin : calc(var(--margin) * 1px);
+}
+
+.box{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+}
+
+.box::after {
+    content: "";
+    display: block;
+    height: 25px;
+    width: 25px;
+    background-color: blue;
+}
+
+
+.box::before {
+    display: block;
+    content: '';
+    height: 25px;
+    width: 25px;
+    background-color: green;
+}
